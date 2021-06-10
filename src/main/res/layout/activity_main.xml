@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/black"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Amount"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="35dp"
+        android:textColor="#FFFF00"
+        android:id="@+id/txtAmount"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="180dp"
+        android:textSize="35dp"
+        android:textColor="#FFFF00"
+        android:id="@+id/txtDollars"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:background="@color/white"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="250dp"
+        android:hint="Enter Amount"
+        android:inputType="number"
+        android:id="@+id/amountInput"
+        android:textSize="20dp"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtTerm"
+        android:text="Term"
+        android:textSize="35dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="#FFFF00"
+        android:layout_marginTop="180dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtTermYear"
+        android:text="Yr"
+        android:textSize="25dp"
+        android:layout_marginLeft="230dp"
+        android:textColor="#FFFF00"
+        android:layout_marginTop="180dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtTermMonths"
+        android:text="Mo"
+        android:textSize="25dp"
+        android:layout_marginLeft="340dp"
+        android:textColor="#FFFF00"
+        android:layout_marginTop="180dp"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="180dp"
+        android:hint="Year"
+        android:background="@color/white"
+        android:textSize="20dp"
+        android:id="@+id/termYearInput"
+        android:inputType="number"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="180dp"
+        android:hint="Months"
+        android:background="@color/white"
+        android:textSize="20dp"
+        android:id="@+id/termMonthInput"
+        android:inputType="number"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtRate"
+        android:text="Rate"
+        android:textSize="35dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="#FFFF00"
+        android:layout_marginTop="260dp"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter Rate  "
+        android:background="@color/white"
+        android:textSize="20dp"
+        android:layout_marginLeft="170dp"
+        android:inputType="numberDecimal"
+        android:id="@+id/rateInput"
+        android:layout_marginTop="280dp"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="280dp"
+        android:src="@drawable/line"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="%"
+        android:textColor="#FFFF00"
+        android:layout_marginTop="270dp"
+        android:layout_marginLeft="300dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFF00"
+        android:textSize="25dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="400dp"
+        android:text="Monthly Interest"
+        android:id="@+id/txtMontlyInterest"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="400dp"
+        android:text="$ 5500"
+        android:id="@+id/txtOutputMontlyInterest"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFF00"
+        android:textSize="25dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="450dp"
+        android:text="Monthly Payment"
+        android:id="@+id/txtMontlyPayment"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="450dp"
+        android:text="$ 5500"
+        android:id="@+id/txtOutputMontlyPayment"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFF00"
+        android:textSize="25dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="500dp"
+        android:text="Total Interest"
+        android:id="@+id/txtTotalInterest"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="500dp"
+        android:text="$ 5500"
+        android:id="@+id/txtOutputTotalInterest"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFF00"
+        android:textSize="25dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="550dp"
+        android:text="Total Amount"
+        android:id="@+id/txtTotalAmount"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="550dp"
+        android:text="$ 6900"
+        android:id="@+id/txtOutputTotalAmount"
+        />
+
+
+
+</RelativeLayout>
