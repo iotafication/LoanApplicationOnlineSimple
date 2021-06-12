@@ -35,7 +35,7 @@
         android:layout_height="wrap_content"
         android:textColor="@color/black"
         android:background="@color/white"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="110dp"
         android:layout_marginLeft="250dp"
         android:hint="Enter Amount"
         android:inputType="number"
@@ -231,6 +231,15 @@
         android:id="@+id/txtOutputTotalAmount"
         />
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnOutput"
+        android:layout_marginTop="600dp"
+        android:layout_marginLeft="150dp"
+        android:text="Calculate"
+        />
++
 
 
 </RelativeLayout>
