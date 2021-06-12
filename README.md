@@ -1,9 +1,11 @@
 # LoanApplicationOnlineSimple
 
 
-All the TextView have id and It would easy for you to manipulate it using onChangeListner(); (Maybe Just Maybe)
+Loan Application Calculator has been completed but there is a bug in calculating monthly interest.
 
-I have completed the front-end.
+If anyone wants to change it they can pull request this code.
+
+THe code is well commented and there are no vague statements in my code.  
 
 
 
